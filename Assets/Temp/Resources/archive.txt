@@ -1,0 +1,29 @@
+
+
+Thinker "(This is a thought)" 
+
+print_n_args("This is a debug" "This is a second debug")
+
+MoveTest "Move Left" moveCharDemo(left)  
+"Move right" moveCharDemo(right)
+
+Mover2 "Move Left and then right" [wait]moveCharDemo(left), moveCharDemo(right) 
+
+
+S1 as ??? "This is the day.{a} I can't believe that anyone would fall for that" playSong("SONGNAME" -v 0.75 -p 1), setMood(sad) 
+S2 as ??? at 1:0 "This is pretty dumb.{c} We just cleared that line... {wa 2}and for what?" playVoice("VOICE" -v 1.5), setBackground(bgTest -t "Diag Lines" -s 3.5)
+S2 at 0.1:0.5 as Nick "Again we are in a pretty dumb place.{c} We just cleared that other line... {wc 1.5}and there goes another one for what?" 
+
+setAccomplishment("Some Accomplishement" true), setCLI(S2 0:Angle2 1:Anger -s 2.3 -l true)
+
+Test1 as Fake Name [0:Angle1, 1:Joy] "This is a test" list(items -f long), playSong("Intro Song" -v l)
+
+setScene("Classroom" -s 5.5)
+
+Test2 "That was a test"
+
+Test3 "I am \"also\" a test" PlaySong(End -p 0.5), list(players), saveGame(l -g all -f simple) 
+
+Hatman "fajkldsjfgiuahwerufhgvjubahdufihgjarebnuigheasrjkfbnuijjenawdjbhgfjkanbhweujirfnbhewa4iujnfijkhaabnwserdkjfbdsajkfgbhiudsahnjkjhfehjdskajljdfklhdjsaoijfikjer4wanujghfsdejgnhruise"
+Catman "verwtpomionumvrei shyverunoisghonmuiercsg mohismfdxsmxasdkamejhsdc gyyaseiovyg biuonhseriu  yhsu hryge eynrus s kerjshngskbsregkjmfvkjl sfdhjfgdhnkljsdfghlsd"
+

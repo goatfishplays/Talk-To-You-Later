@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f188cf1399f9c4891c0c8bdaea3b9e, type: 3}
+  m_Name: CharacterConfig
+  m_EditorClassIdentifier: 
+  characters:
+  - name: Testerman
+    alias: TM
+    characterType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 0}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 0}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - name: Testerwoman
+    alias: TW
+    characterType: 1
+    nameColor: {r: 0.9622642, g: 0.64907444, b: 0.64907444, a: 1}
+    dialogueColor: {r: 0.33962262, g: 0.09451762, b: 0.09451762, a: 1}
+    nameFont: {fileID: 11400000, guid: 81e14d9de78c4f34598d97b450ebbd7e, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 93c55267311158143ae320113bd052fd, type: 2}
+  - name: Testerfrog
+    alias: TB
+    characterType: 1
+    nameColor: {r: 0.9607843, g: 0.884425, b: 0.6509804, a: 1}
+    dialogueColor: {r: 0.34117648, g: 0.29649934, b: 0.09411764, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - name: Raelin
+    alias: rae
+    characterType: 2
+    nameColor: {r: 1, g: 0.9262599, b: 0.6933962, a: 1}
+    dialogueColor: {r: 0.8867924, g: 0.31927755, b: 0.31372374, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - name: Female Student 2
+    alias: FS2
+    characterType: 1
+    nameColor: {r: 0.5531994, g: 0.4362763, b: 0.7169812, a: 1}
+    dialogueColor: {r: 0.26577783, g: 0.26197046, b: 0.2735849, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - name: Generic
+    alias: Gen
+    characterType: 2
+    nameColor: {r: 0.69373, g: 0.6797793, b: 0.7169812, a: 1}
+    dialogueColor: {r: 0.24123353, g: 0.23718405, b: 0.24528301, a: 1}
+    nameFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -1,0 +1,23 @@
+wait(5)
+CreateCharacter(Raelin -enabled true), CreateCharacter("Female Student 2"), CreateCharacter("Guard1 as Generic" -e true -i true) 
+[wait]move(Guard1 -x 0 -spd 1.2 -s false)
+Raelin.SetColor(red)  
+[wait]Raelin.SetSprite(B2 -l 0 -spd 0.75), Raelin.SetSprite(A_Guilty -l 1 -spd 0.8)  
+[wait]Unhighlight(Raelin), wait(1), [wait]Highlight(Raelin), wait(1)
+[wait]Highlight(Raelin -o true), wait(1), [wait]UnHighlight(Raelin -o true), wait(1) 
+ 
+ 
+
+[wait]Raelin.Move(0 1 -spd 0.5)
+Raelin.SetPriority(99), wait(1), Guard1.SetPriority(2)
+move(Guard1 .3 1 -spd .5 5)
+sort(Guard1 Raelin)
+ 
+Hide("Female Student 2" Raelin Guard1 -spd 0.1)
+Guard1 "This is really dumb"
+
+[wait]Show("Female Student 2" Raelin Guard1 -spd 0.1)
+enter Raelin as ??? at 1 [0:B2, 1:A_Guilty] "Yeah,{a} yeah,{a} yeah"
+Raelin "What's up gamers.{a} Today we're back with another video gaming let's play"
+enter Female Student 2 [female student 2 - blush] "I was so excited for the release of new hit game {c} DESTOYER MAN 5"
+    

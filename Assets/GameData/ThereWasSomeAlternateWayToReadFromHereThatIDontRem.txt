@@ -1,0 +1,7 @@
+Test1 "This is a test" list(items -f long), playSong("Intro Song" -v l)
+
+setScene("Classroom" -s 5.5)
+
+Test2 "That was a test"
+
+Test3 "I am \"also\" a test" PlaySong(End, -p 0.5), list(players), saveGame(l -g all -f simple) 

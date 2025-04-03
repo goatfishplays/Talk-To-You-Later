@@ -1,0 +1,6 @@
+Tester "command(fake command with fake args)"
+Tester "(This is a thought)"
+Tester "This is some dialogue" command(args go here)
+command(more args go here), argCom(yes another one)
+command("This is another command")
+
